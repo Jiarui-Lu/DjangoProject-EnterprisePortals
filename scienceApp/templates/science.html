@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+科研基地
+{% endblock %}
+
+{% block content %}
+<!-- 广告横幅 -->
+<div class="container-fluid">
+    <div class="row" align="center">
+        <img class="img-responsive model-img" src="{% static 'img/science.jpg' %}" alt="科研基地" style="width:1200px; height:300px>
+    </div>
+</div>
+<div class="container">
+    <!-- 主体标题 -->
+    <div class="model-details-title">
+        科研基地介绍
+    </div>
+    <!-- 主体内容 -->
+    <div class="model-details">
+        <p align="center">
+            白云科技致力打造“志存高远，一诺千钧”的企业文化，不断吸纳和培养人工智能高精尖人才，
+            逐步形成了一支技术过硬、乐于钻研、勇于创新的核心技术团队。目前，白云科研基地在人工智能
+            六大领域中均在不断地努力和尝试，并投入饱满的激情和努力。预计在未来，
+            公司将继续坚定不移地投入科研，持续做好团队结构优化
+            和技术创新升级，力争实现引领全球人工智能发展的未来愿景。
+            <br>
+        </p>
+        <p align="center">
+            目前白云科技在计算机视觉、 机器人和视觉深度学习三大领域
+            有一定成果，已为公司在人脸识别、物联网平台搭建、机器人导航等高新算法
+            和模型研究领域打下了坚实基础。
+            未来公司将继续努力，砥砺前行。
+            <br>
+        </p>
+        <img class="img-responsive" style="width:60%; height:60%" src="{% static 'img/kyjd.jpg' %}" >
+    </div>
+</div>
+{% endblock %}
