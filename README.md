@@ -4,3 +4,7 @@ SQLite3 数据库和 MySQL 数据库存储数据。前端引用了 Bootstrap 框
 用 Django Admin 管理后台对数据进行管理，使用 Django ORM 技术对数据进行
 处理，利用 AJAX 进行前后端数据交互，同时运用多种技术和算法如 OpenCV、
 富文本编辑器、百度地图 API 等工具来扩充网站的功能。
+
+主要参考文献：
+钱彬. Python Web 开发从入门到实战（Django+Bootstrap）[M]. 北京: 清华大学出版
+社, 2020
